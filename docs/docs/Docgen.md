@@ -150,7 +150,7 @@ var componentInfoConfigured = parse(filePath, {
 
 Same as `parse`, but this way you can force the content of the code. The `filePath` parameter will then only be used for dependency resolution.
 
-### `parseMulti(code: string, filePath:string, options?: DocGenOptions):ComponentDoc[]`
+### `parseMulti(filePath:string, options?: DocGenOptions):ComponentDoc[]`
 
 Same as `parse`, but allows for multiple exported components in one file.
 
